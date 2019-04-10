@@ -20,7 +20,8 @@
 
     <!--<bean class="ru.sbrf.sandbox.sberchat.domain.InMemorySberchatService" />-->
 
-    <bean class="ru.sbrf.sandbox.sberchat.domain.MessageDao" />
-    <bean class="ru.sbrf.sandbox.sberchat.domain.JdbcSberchatService" />
+    <!--<bean class="ru.sbrf.sandbox.sberchat.domain.MessageDao" />
+    <bean class="ru.sbrf.sandbox.sberchat.domain.JdbcSberchatService" />-->
 
+    <bean class="ru.sbrf.sandbox.sberchat.domain.JpaSberchatService" />
 </beans>

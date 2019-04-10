@@ -23,6 +23,7 @@
         <test.jetty.stop-key>STOP</test.jetty.stop-key>
         <test.jetty.port>8080</test.jetty.port>
         <h2.version>1.4.196</h2.version>
+        <hibernate.version>5.2.10.Final</hibernate.version>
     </properties>
 
     <dependencies>
@@ -55,6 +56,16 @@
             <artifactId>sberchat-domain</artifactId>
             <version>${project.parent.version}</version>
             <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-core</artifactId>
+            <version>${hibernate.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-entitymanager</artifactId>
+            <version>${hibernate.version}</version>
         </dependency>
     </dependencies>
 
